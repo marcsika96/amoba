@@ -5,9 +5,9 @@
 
 int main(void)
 {
-    int meret;
-    printf("Mekkora legyen a tabla?\n");
-    scanf("%d", &meret);
+    //int meret;
+    //printf("Mekkora legyen a tabla?\n");
+    //scanf("%d", &meret);
 
 //    Tabla tabla;
 //    scanf("%d", &tabla.meret);
@@ -18,7 +18,10 @@ int main(void)
 //        tabla.tomb[k] = malloc((tabla.meret+1)*sizeof (char));
 //    }
 
-    uj_jatek (meret);
+
+    //Tabla tabla = uj_jatek ();
+	Tabla tabla = betoltes();
+	jatek(tabla);
 
     return 0;
 }

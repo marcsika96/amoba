@@ -7,9 +7,14 @@ typedef struct Tabla
 
 void kiir ( Tabla tabla );
 
-void uj_jatek (int meret);
+Tabla uj_jatek ();
+
+Tabla betoltes();
+
+void jatek(Tabla tabla);
 
 void rakas (Tabla *tabla);
 
 int win(Tabla tabla);
 
+void robot(Tabla *tabla);
