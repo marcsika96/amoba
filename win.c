@@ -46,15 +46,16 @@ int win (Tabla *tabla)
                         break;
                     }
 
-                    if (a==4 || b==4 || c==4 || d==4)
-                    {
-                        printf("A jateknak vege");
-                        return 1;
-                    }
+
                 }
             }
 
         }
+    }
+    if (a==5 || b==5 || c==5 || d==5)
+    {
+        printf("A jateknak vege");
+        return 1;
     }
     return 0;
 }
