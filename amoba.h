@@ -5,6 +5,7 @@ typedef struct Tabla
     int meret;
 } Tabla;
 
+
 void kiir ( Tabla tabla );
 
 Tabla uj_jatek ();
@@ -15,6 +16,5 @@ void jatek(Tabla tabla);
 
 void rakas (Tabla *tabla);
 
-int win(Tabla tabla);
+int win(Tabla *tabla);
 
-void robot(Tabla *tabla);

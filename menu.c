@@ -22,7 +22,7 @@ Tabla betoltes()
 	int i, j;
 	for (i = 0; i < tabla.meret; i++)
 	{
-		
+
 		fscanf(ifile, "%s", buffer);
 
 		for (j = 0; j < tabla.meret; j++)
@@ -39,6 +39,7 @@ Tabla betoltes()
 void menu ()
 {
     int valasztas;
+    Tabla tabla;
     do
     {
         printf("1. Uj jatek\n");
@@ -48,14 +49,15 @@ void menu ()
         switch(valasztas)
         {
         case 1:
-            uj_jatek();
+            tabla = uj_jatek();
             break;
-//        case 2:
-//            betoltes();
-//            break;
+        case 2:
+            tabla = betoltes();
+            break;
         }
+        jatek(tabla);
     }
-    while(valasztas!=0);
-    return 0;
+    while(valasztas==0);
+
 }
 

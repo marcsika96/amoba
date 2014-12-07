@@ -41,6 +41,9 @@
 		<Unit filename="menu.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="robot.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="win.c">
 			<Option compilerVar="CC" />
 		</Unit>

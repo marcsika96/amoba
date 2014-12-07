@@ -41,15 +41,19 @@ int pontozCella(Tabla* tabla, int i, int j){
 	int pont = 0;
 
 	if (a >= 2){
-		pont += (1 << 2*(a-1));
+		pont += (1 << 4*(a-1));
 	}
 
 	if (b >= 2){
-		pont += (1 << 2*(b-1));
+		pont += (1 << 4*(b-1));
 	}
 
 	if (c >= 2){
-		pont += (1 << 2*(c-1));
+		pont += (1 << 4*(c-1));
+	}
+
+	if (d >= 2){
+		pont += (1 << 4*(d-1));
 	}
 
 	return (tabla->tomb[i][j] == 'x') ? pont : -pont;
@@ -62,7 +66,7 @@ int pontoz(Tabla *tabla){
 		for (j = 0; j < tabla->meret; j++){
 			if (tabla->tomb[i][j] != ' '){
 				pont += pontozCella(tabla, i, j);
-			}			
+			}
 		}
 	}
 

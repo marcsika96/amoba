@@ -1,19 +1,24 @@
 # depslib dependency file v1.0
-1417789322 source:c:\users\marcsi\documents\prog\nagyhf\board.c
+1417970860 source:c:\users\marcsi\documents\prog\nagyhf\board.c
 	"amoba.h"
-
-1417789328 c:\users\marcsi\documents\prog\nagyhf\amoba.h
 	<stdio.h>
 
-1417789288 source:c:\users\marcsi\documents\prog\nagyhf\main.c
+1417970841 c:\users\marcsi\documents\prog\nagyhf\amoba.h
+	<stdio.h>
+
+1417972508 source:c:\users\marcsi\documents\prog\nagyhf\main.c
 	<stdio.h>
 	<stdlib.h>
 	"amoba.h"
 
-1417788846 source:c:\users\marcsi\documents\prog\nagyhf\menu.c
+1417972497 source:c:\users\marcsi\documents\prog\nagyhf\menu.c
 	<stdio.h>
 	<stdlib.h>
+	"amoba.h"
 
-1417788623 source:c:\users\marcsi\documents\prog\nagyhf\win.c
+1417971665 source:c:\users\marcsi\documents\prog\nagyhf\win.c
+	"amoba.h"
+
+1417972938 source:c:\users\marcsi\documents\prog\nagyhf\robot.c
 	"amoba.h"
 

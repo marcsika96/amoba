@@ -48,7 +48,7 @@ Tabla uj_jatek()
 
 }
 
-void jatek(Tabla tabla){ 
+void jatek(Tabla tabla){
     do
     {
         kiir (tabla);
@@ -59,7 +59,7 @@ void jatek(Tabla tabla){
 		// Most mindig mentunk
 		mentes(&tabla);
     }
-    while (win(tabla)==0);
+    while (win(&tabla)==0);
 
 	free(tabla.tomb);
 }

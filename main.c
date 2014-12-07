@@ -18,10 +18,10 @@ int main(void)
 //        tabla.tomb[k] = malloc((tabla.meret+1)*sizeof (char));
 //    }
 
-
-    //Tabla tabla = uj_jatek ();
-	Tabla tabla = betoltes();
-	jatek(tabla);
+    menu();
+    //Tabla tabla = uj_jatek();
+	//Tabla tabla = betoltes();
+	//jatek(tabla);
 
     return 0;
 }
